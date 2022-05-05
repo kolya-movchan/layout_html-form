@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+    <form
+    action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+    method="post"
+    >
       <fieldset>
         <legend>Personal information</legend>
 
@@ -38,9 +41,9 @@
         <label class="form-field">
           Full date of birth:
           <input
-          type="date"
-          name="date"
-          placeholder="mm / dd / yyyy"
+            type="date"
+            name="date"
+            placeholder="mm / dd / yyyy"
            >
         </label>
 
@@ -54,7 +57,7 @@
         <legend>Registration</legend>
 
         <label class="form-field">
-          E-mail
+          E-mail:
           <input
             type="email"
             name="email"
@@ -114,10 +117,10 @@
           What are your favorite brand of cars?
           <!--What are your favorite brandS of cars or What IS your favorite branD of cars (grammar point of view)-->
           <select
-          name="cars"
-          id="cars"
-          required
-          multiple
+            name="cars"
+            id="cars"
+            required
+            multiple
           >
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
@@ -149,11 +152,11 @@
             <option value="yes">yes</option>
             <option value="no">no</option>
           </select>
-
-          <button type="submit">Submit</button>
-
         </label>
       </fieldset>
+
+      <button type="submit">Submit</button>
+
     </form>
   </body>
 </html>
